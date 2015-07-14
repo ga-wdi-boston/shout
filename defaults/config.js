@@ -24,7 +24,7 @@ module.exports = {
 	// @type     int
 	// @default  9000
 	//
-	port: 9000,
+	port: 80,
 
 	//
 	// Set the local IP to bind to.
@@ -115,7 +115,7 @@ module.exports = {
 		// @type     string
 		// @default  "Freenode"
 		//
-		name: "Freenode",
+		name: "wdibos",
 
 		//
 		// Host
@@ -123,7 +123,7 @@ module.exports = {
 		// @type     string
 		// @default  "irc.freenode.org"
 		//
-		host: "irc.freenode.org",
+		host: "irc.wdibos.com",
 
 		//
 		// Port
@@ -131,7 +131,7 @@ module.exports = {
 		// @type     int
 		// @default  6697
 		//
-		port: 6697,
+		port: 6667,
 
 		//
 		// Password
@@ -147,7 +147,7 @@ module.exports = {
 		// @type     boolean
 		// @default  true
 		//
-		tls: true,
+		tls: false,
 
 		//
 		// Nick
@@ -155,7 +155,7 @@ module.exports = {
 		// @type     string
 		// @default  "shout-user"
 		//
-		nick: "shout-user",
+		nick: "your-screen-name",
 
 		//
 		// Username
@@ -163,7 +163,7 @@ module.exports = {
 		// @type     string
 		// @default  "shout-user"
 		//
-		username: "shout-user",
+		username: "your-screen-name",
 
 		//
 		// Real Name
@@ -171,7 +171,7 @@ module.exports = {
 		// @type     string
 		// @default  "Shout User"
 		//
-		realname: "Shout User",
+		realname: "Your Full Name",
 
 		//
 		// Channels
@@ -179,7 +179,7 @@ module.exports = {
 		// @type     string
 		// @default  "#foo, #shout-irc"
 		//
-		join: "#foo, #shout-irc"
+		join: "#general, #etc"
 	},
 
 	//
